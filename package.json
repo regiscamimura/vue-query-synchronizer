@@ -1,5 +1,5 @@
 {
-  "name": "@oarepo/vue-query-synchronizer",
+  "name": "@regiscamimura/vue-query-synchronizer",
   "version": "2.4.1",
   "main": "vue-query-synchronizer.esm.js",
   "license": "MIT",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oarepo/vue-query-synchronizer.git"
+    "url": "git+https://github.com/regiscamimura/vue-query-synchronizer.git"
   },
   "keywords": [
     "vuejs",
@@ -53,11 +53,11 @@
     "vue-router",
     "query parameters"
   ],
-  "author": "Miroslav Simek <simeki@vscht.cz>",
+  "author": "Regis Camimura <regiscamimura@gmail.com>",
   "bugs": {
-    "url": "https://github.com/oarepo/vue-query-synchronizer/issues"
+    "url": "https://github.com/regiscamimura/vue-query-synchronizer/issues"
   },
-  "homepage": "https://github.com/oarepo/vue-query-synchronizer#readme",
+  "homepage": "https://github.com/regiscamimura/vue-query-synchronizer#readme",
   "peerDependencies": {
     "flatted": "^2.0.1",
     "vue": "^2.6.10",
