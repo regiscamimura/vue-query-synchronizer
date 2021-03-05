@@ -409,7 +409,7 @@ const QuerySynchronizer = {
             if (Object.keys(existingQuery).length === Object.keys(newQuery).length) {
                 for (const k of Object.keys(newQuery)) {
                     const val = newQuery[k] !== null ? newQuery[k].toString() : null
-                    if (val !== existingQuery[k].toString()) {
+                    if (val != existingQuery[k]) {
                         if (debug) {
                             console.log('Setting router from query: modified property', k, val, existingQuery[k])
                         }
